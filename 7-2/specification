@@ -1,0 +1,14 @@
+7-2:  Date arithmetic
+Preliminary Specification
+10/22/2014 LBC
+
+7-2 is a program to perform date arithmetic (compute the number of days
+between 2 dates).  It will prompt the user for the dates. It will output
+the number of days between these 2 dates.
+
+Example:
+
+./7.2
+Enter the date (MM/DD/YYYY):  10/22/2014
+Enter the date (MM/DD/YYYY):  09/22/2014
+There are 30 days between 10/22/2014 and 09/22/2014.

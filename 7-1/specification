@@ -1,0 +1,23 @@
+7-1:  English to metric unit conversion
+Preliminary Specification
+7/29/2014 LBC
+
+7-1 is a program to convert English to metric units.  When the program is run
+it will prompt the user for the English unit of measure and value.  It outputs
+the resultant metric equivalent.
+
+The following conversions are valid:
+English			Metric
+yard			meter
+gallon			liter
+pound			kilogram
+
+Example:
+
+./7.1
+(1) Yards to Meters
+(2) Gallons to Liters
+(3) Pounds to Kilograms
+Select an English to metric conversion: 1
+Enter the number of yards:  1
+1 yard is 0.9144 meters

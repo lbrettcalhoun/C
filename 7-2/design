@@ -1,0 +1,18 @@
+7-2:  Date arithmetic
+Code Design
+10/22/2014 LBC
+
+File Formats:  N/A
+
+Structures:  N/A
+
+Algorithms:
+
+  Main:  
+    Read a date
+    If date not valid then exit
+    Read a date
+    If date not valid then exit
+    Create and load time structures (broken down time)
+    Perform calculation:  difftime / 60 / 60 / 24
+    Display result

@@ -1,0 +1,8 @@
+7-1:  English to metric unit conversion
+Test Plan
+7/29/2014 LBC
+
+Input			Output
+3 yards			2.7432 meters
+1 gallon		3.78541 liters
+10 pounds		4.53592 kilograms

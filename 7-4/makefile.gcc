@@ -1,0 +1,22 @@
+#--------------------------------------------------------
+# Makefile for GCC
+# 
+# NOTE:  BE SURE TO USE A TAB (not 8 spaces) for all
+# sections!
+#--------------------------------------------------------
+
+CC=gcc
+CFLAGS=-g -D__USE_FIXED_PROTOTYPES__ -ansi
+
+#
+# Compiler flags:
+#
+#  -g 				Enable debugging
+#  -ansi 			Don't use GNU extensions.  Stick with ANSI C.
+#  -D__USE_FIXED_PROTOTYPES__	Force the compiler to use correct headers
+
+7-4:  7-4.c
+	$(CC) $(CFLAGS) -o 7-4 7-4.c
+
+clean:
+	rm -f 7-4

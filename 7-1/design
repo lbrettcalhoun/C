@@ -1,0 +1,16 @@
+7-1:  English to metric unit conversion
+Code Design
+07/29/2014 LBC
+
+File Formats:  N/A
+
+Structures:  N/A
+
+Algorithms:
+
+  Main:  
+    Read a selection
+    If selection not valid then exit
+    Read a number
+    Based on selection perform calculation
+    Display result
